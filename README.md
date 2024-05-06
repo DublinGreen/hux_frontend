@@ -1,9 +1,21 @@
-# hux_frontend
-Hux frontend application with react
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hux frontend application
+## Frontend Specifications
+- Create a simple web interface for the backend service using React or Next.js. -
+It should contain the following pages:
+- Homepage - Shows some useful information about the web app
+- Signup/Login page (or popup) - Allows a user to signup or login
+- Create contact page - Contains a form for a user to add a new contact -
+Edit contact page - Allows the user to update a contact information
+- Contacts list page - Lists all saved contacts for the logged-in user
+- Contact details page - Shows the full details of a saved contact
+- Deleting contacts should be implemented on the Contacts list page or the Contacts
+details page (or both).
+- Logged-in users should be directed to the Contacts list page when they visit the site from a
+new browser tab while anonymous visitors should be redirected to the Homepage. - Style the
+application to make it visually appealing. It should be simple but intuitive. Do NOT use CSS
+preprocessors (e.g., Sass, LESS, etc.), but you can use CSS frameworks (Bootstrap,
+Tailwind CSS, etc.).
+- The frontend should be highly responsive and follow web accessibility standards. -
 
 ## Available Scripts
 
@@ -12,10 +24,10 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
 ### `npm test`
 
@@ -34,13 +46,13 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
